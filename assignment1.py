@@ -92,7 +92,7 @@ def main():
     elif ch == 2:
         n2 = int(input("Enter number of elements to be added in the list : "))
         list2 = []
-        for i in range(n1):
+        for i in range(n2):
             e = int(input(f"Enter element {i+1} : "))
             list2.append(e)
         try :
@@ -130,4 +130,5 @@ def main():
         print("Invalid choice")
 
 main()
+
 
